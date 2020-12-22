@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background: url(../img-player/Marshmellob.jpg) fixed;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.conteudo{
+    background:rgba(255, 255, 255, 0.15);
+    width: 25vw;
+    height: 90vh;
+    margin: 1vh auto 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cabecalho{
+    height: 6vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+/* coração */
+.coracao img{
+    width: 15%;
+    height: 60%;
+    position: relative;
+    left: 4%;
+}
+/* termina o coração */
+
+/* começa a area do mais */
+.icone-mais{
+    position: relative;
+    width: 20%;
+    height: 60%;
+    left: 71%;
+}
+/* Termina a area do mais */
+
+/* começa a area da imagem central */
+.area-imagem{
+    box-shadow: 0 -1px 0  white;
+    border-radius: 50%;
+    position: relative;
+    padding: 1%;
+    height: 50%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* imagem central */
+.area-imagem img{
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
+    position: relative;
+}
+/* termina a imagem central */
+/* termina a area da imagem central */
+
+/* começa a area do titulo */
+.tituloecantor{
+    text-align: center;
+    color: white;
+    margin-top: -10%;
+}
+
+.tituloecantor h1{
+    font-family: 'Montserrat';
+    font-size: 250%;
+    font-weight: normal;
+    margin: 0;
+}
+
+.tituloecantor p{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: bold;
+}
+/* termina a area do titulo */
