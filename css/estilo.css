@@ -27,6 +27,7 @@ body{
     height: 60%;
     position: relative;
     left: 4%;
+    cursor: pointer;
 }
 /* termina o coração */
 
@@ -36,6 +37,7 @@ body{
     width: 20%;
     height: 60%;
     left: 71%;
+    cursor: pointer;
 }
 /* Termina a area do mais */
 
@@ -82,3 +84,14 @@ body{
     font-style: bold;
 }
 /* termina a area do titulo */
+
+/* começa a região do audio */
+.area-musica{
+    border: 1px solid black;
+    margin: 4% 0;
+}
+
+.area-musica audio{
+    width: 100%;
+}
+/* termina a região do audio */
